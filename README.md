@@ -55,10 +55,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
 
-**[Hello Microverse]** This is a portfolio which i've made from scratch.
+**[Matee Safi - Portfolio]** This is a portfolio which i've made from scratch.
 
 ## 🛠 Built With <a name="built-with"></a>
 
