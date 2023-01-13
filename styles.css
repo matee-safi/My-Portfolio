@@ -57,7 +57,7 @@ nav {
   flex-grow: 0;
   margin: 6px 24px;
   color: #ff5b00;
-  font-size: 56px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 64px;
   font-family: 'Crete Round', sans-serif;
@@ -118,4 +118,8 @@ nav {
 .menu:hover {
   cursor: pointer;
   background-color: #1c1a19;
+}
+
+.fw-400 {
+  font-weight: 400;
 }
