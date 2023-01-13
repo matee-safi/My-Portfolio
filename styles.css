@@ -57,9 +57,11 @@ nav {
 }
 
 .main-line {
+  flex-grow: 0;
   margin: 6px 24px;
   color: #ff5b00;
   font-size: 56px;
+  font-weight: 700;
   line-height: 64px;
   font-family: 'Crete Round', sans-serif;
 }
@@ -100,7 +102,7 @@ nav {
   background-image: url(./assets/Illustration.svg);
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: bottom;
+  background-position-y: 32vh;
 }
 
 .icon {
