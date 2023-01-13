@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap');
-
+html {
+  width: 375px;
+}
 * {
   padding: 0;
   margin: 0;
@@ -60,8 +62,8 @@ nav {
   flex-grow: 0;
   margin: 6px 24px;
   color: #ff5b00;
-  font-size: 56px;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: 400;
   line-height: 64px;
   font-family: 'Crete Round', sans-serif;
 }
@@ -102,7 +104,7 @@ nav {
   background-image: url(./assets/Illustration.svg);
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: 32vh;
+  background-position-y: 35vh;
 }
 
 .icon {
