@@ -27,7 +27,6 @@ nav {
 }
 
 .logo-text {
-  color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -51,7 +50,6 @@ nav {
   flex: none;
   flex-grow: 0;
   margin: 6px 24px;
-  color: #ff5b00;
   font-size: 40px;
   font-weight: 400;
   line-height: 64px;
@@ -90,7 +88,6 @@ nav {
 
 .headline {
   font-family: "inter", sans-serif;
-  color: white;
   background-color: #1c1a19;
   height: 90vh;
   display: flex;
@@ -123,7 +120,7 @@ nav {
 
 .works {
   display: grid;
-  background-color: #fff;
+  background-color: white;
 }
 
 .recent-works h2 {
@@ -188,19 +185,13 @@ nav {
 }
 
 .projects li {
-  background: #fff;
+  background: white;
   border: 1px solid #8993a4;
   padding: 10px 12px;
-}
-
-.projects li a {
-  color: initial;
-  text-decoration: inherit;
   font-family: 'inter', sans-serif;
 }
 
 .orange-btn {
-  color: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -218,7 +209,6 @@ nav {
 }
 
 .project-data {
-  color: white;
   display: grid;
   height: 386px;
   width: 327px;
@@ -250,7 +240,6 @@ nav {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #fff;
   flex: none;
   flex-grow: 0;
   width: 327px;
@@ -278,17 +267,10 @@ nav {
 }
 
 .project-links li {
-  color: fff 24%;
   background: rgba(255, 255, 255, 0.24);
   -webkit-appearance: inherit;
   padding: 10px 12px;
   margin-right: 12px;
-}
-
-.project-links li a {
-  color: white;
-  text-decoration: inherit;
-  font-family: 'inter', sans-serif;
 }
 
 .work-grids {
@@ -316,7 +298,6 @@ nav {
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #ff6b00;
   padding-top: 120px;
 }
 
@@ -332,7 +313,6 @@ nav {
 }
 
 .get-resume-btn {
-  color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -430,10 +410,9 @@ nav {
   font-size: 15px;
   line-height: 24px;
   align-items: center;
-  color: #dbd8d7;
   border-style: none none solid none;
   border-width: 100%;
-  border-color: #dbd8d7;
+  border-color: white;
   padding: 10px;
   width: 100%;
   margin: 25px 5px;
@@ -453,7 +432,6 @@ textarea {
 }
 
 .get-intouch-btn {
-  color: white;
   padding: 12px;
   width: auto;
   height: 48px;
@@ -480,4 +458,12 @@ footer {
   justify-content: center;
   align-items: center;
   height: 80px;
+}
+
+.color-primary {
+  color: #fff;
+}
+
+.color-secondary {
+  color: #ff6b00;
 }
