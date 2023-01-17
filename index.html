@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matee Safi - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crete+Round:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -169,10 +169,12 @@
     <section class="contact">
         <div class="email">
             <h4 id="contact-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in</h4>
-            <input class="color-primary" type="text" placeholder="Full name" required>
-            <input class="color-primary" type="email" placeholder="Email address" required>
-            <textarea placeholder="Enter text here" name="comment" cols="30" rows="10" required></textarea>
-            <button class="get-intouch-btn color-primary">Get in touch</button>
+            <form action="https://formspree.io/f/xpzewrow" method="post">
+                <input class="color-primary" type="text" placeholder="Full name" required>
+                <input class="color-primary" type="email" placeholder="Email address" required>
+                <textarea name="comment" cols="30" rows="10" required>Enter text here</textarea>
+                <button class="get-intouch-btn color-primary">Get in touch</button>
+            </form>
         </div>
         <hr class="end-border">
         <footer>

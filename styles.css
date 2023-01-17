@@ -385,14 +385,14 @@ nav {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 33px;
+  font-size: 32px;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
   margin-top: 130px;
   margin-bottom: 73px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0px;
+  padding-right: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -412,13 +412,14 @@ nav {
   align-items: center;
   border-style: none none solid none;
   border-width: 100%;
-  border-color: white;
+  border-color: #DBD8D7;;
   padding: 10px;
   width: 100%;
   margin: 25px 5px;
 }
 
 textarea {
+  color: #3C3A39;
   width: 100%;
   background: #fbf8f7;
   border-style: none;
