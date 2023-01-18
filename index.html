@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matee Safi - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crete+Round:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -73,7 +73,7 @@
                 <li class="links">bootstrap</li>
                 <li class="links">Ruby</li>
             </ul>
-            <button class="orange-btn color-primary">See Project</button>
+            <button class="orange-btn color-primary button">See Project</button>
         </div>
         <div class="work-grids">
         <div class="project-data color-primary">
@@ -84,7 +84,7 @@
                 <li>bootstrap</li>
                 <li>Ruby</li>
             </ul>
-            <button class="seeProject-btn color-primary">See Project</button>
+            <button class="seeProject-btn color-primary button">See Project</button>
         </div>
         <div class="project-data color-primary">
             <h2>Professional Art<br>Printing Data</h2>
@@ -94,7 +94,7 @@
                 <li>bootstrap</li>
                 <li>Ruby</li>
             </ul>
-            <button class="seeProject-btn color-primary">See Project</button>
+            <button class="seeProject-btn color-primary button">See Project</button>
         </div>
         <div class="project-data color-primary">
             <h2>Professional Art<br>Printing Data</h2>
@@ -104,7 +104,7 @@
                 <li>bootstrap</li>
                 <li>Ruby</li>
             </ul>
-            <button class="seeProject-btn color-primary">See Project</button>
+            <button class="seeProject-btn color-primary button">See Project</button>
         </div>
         <div class="project-data color-primary">
             <h2>Professional Art<br>Printing Data</h2>
@@ -114,7 +114,7 @@
                 <li>bootstrap</li>
                 <li>Ruby</li>
             </ul>
-            <button class="seeProject-btn color-primary">See Project</button>
+            <button class="seeProject-btn color-primary button">See Project</button>
         </div>
         <div class="project-data color-primary">
             <h2>Professional Art<br>Printing Data</h2>
@@ -124,7 +124,7 @@
                 <li>bootstrap</li>
                 <li>Ruby</li>
             </ul>
-            <button class="seeProject-btn color-primary">See Project</button>
+            <button class="seeProject-btn color-primary button">See Project</button>
         </div>
         <div class="project-data color-primary">
             <h2>Professional Art<br>Printing Data</h2>
@@ -134,7 +134,7 @@
                 <li>bootstrap</li>
                 <li>Ruby</li>
             </ul>
-            <button class="seeProject-btn color-primary">See Project</button>
+            <button class="seeProject-btn color-primary button">See Project</button>
         </div>
     </div>
     </section>
@@ -142,9 +142,9 @@
         <div>
             <h2 class="color-secondary">About me</h2>
             <p>Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-            <button class="get-resume-btn color-primary">Get My Resume</button>
+            <button class="get-resume-btn color-primary button">Get My Resume</button>
         <hr>
-        <ul class="languages"><h4>Langauge</h4>
+        <ul class="languages"><h4>Language</h4>
             <li>Javascript</li>
             <li>Ruby</li>
             <li>Html</li>
@@ -169,10 +169,12 @@
     <section class="contact">
         <div class="email">
             <h4 id="contact-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in</h4>
-            <input class="color-primary" type="text" placeholder="Full name" required>
-            <input class="color-primary" type="email" placeholder="Email address" required>
-            <textarea placeholder="Enter text here" name="comment" cols="30" rows="10" required></textarea>
-            <button class="get-intouch-btn color-primary">Get in touch</button>
+            <form action="https://formspree.io/f/xpzewrow" method="post">
+                <input class="color-primary" type="text" placeholder="Full name" required maxlength="30">
+                <input class="color-primary" type="email" placeholder="Email address" required>
+                <textarea name="comment" cols="30" rows="10" placeholder="Enter text here" required maxlength="500"></textarea>
+                <button type="submit" class="get-intouch-btn color-primary button">Get in touch</button>
+            </form>
         </div>
         <hr class="end-border">
         <footer>

@@ -2,13 +2,8 @@
 
 * {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   box-sizing: border-box;
-}
-
-div {
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 nav {
@@ -176,7 +171,6 @@ nav {
   flex-direction: row;
   gap: 12px;
   align-items: center;
-  padding: 10px 12px;
   width: auto;
   height: 40px;
   list-style: none;
@@ -192,9 +186,6 @@ nav {
 }
 
 .orange-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 12px;
   width: 124px;
   height: 48px;
@@ -289,6 +280,8 @@ nav {
   background-position: right;
   background-position-y: 68vh;
   padding-bottom: 131px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .about-me h2 {
@@ -385,14 +378,14 @@ nav {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 33px;
+  font-size: 32px;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
   margin-top: 130px;
   margin-bottom: 73px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0;
+  padding-right: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -402,6 +395,7 @@ nav {
 }
 
 .contact input {
+  color: black;
   display: flex;
   justify-content: center;
   font-family: 'Inter', sans-serif;
@@ -412,23 +406,27 @@ nav {
   align-items: center;
   border-style: none none solid none;
   border-width: 100%;
-  border-color: white;
+  border-color: #dbd8d7;
   padding: 10px;
-  width: 100%;
-  margin: 25px 5px;
+  width: 90%;
+  margin: 25px auto;
 }
 
 textarea {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 90%;
   background: #fbf8f7;
   border-style: none;
-  padding: 15px;
+  padding: 12px;
   height: 114px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .get-intouch-btn {
@@ -466,4 +464,24 @@ footer {
 
 .color-secondary {
   color: #ff6b00;
+}
+
+textarea::placeholder {
+  color: #3c3a39;
+}
+
+.button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.button:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
 }
