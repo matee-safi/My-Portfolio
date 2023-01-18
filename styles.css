@@ -468,3 +468,19 @@ footer {
 textarea::placeholder {
   color: #3c3a39;
 }
+
+.button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #F55800;
+}
+
+.button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.button:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
