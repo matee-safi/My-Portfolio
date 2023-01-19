@@ -501,7 +501,6 @@ textarea::placeholder {
 /* Desktop version */
 
 @media only screen and (min-width: 1080px) {
-
   nav {
     display: none;
   }
@@ -517,7 +516,6 @@ textarea::placeholder {
     font-size: 20px;
     padding-left: 10%;
     padding-right: 40%;
-
   }
 
   .desktop ul {
@@ -533,7 +531,7 @@ textarea::placeholder {
 
   .desktop li {
     justify-content: right;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -549,7 +547,7 @@ textarea::placeholder {
   }
 
   .main-line {
-    color: #F55800;
+    color: #f55800;
     font-size: 52px;
     line-height: 82px;
     font-weight: 300;
@@ -557,7 +555,7 @@ textarea::placeholder {
 
   .second-line {
     font-family: 'Inter', sans-serif;
-    font-weight: 100; 
+    font-weight: 100;
     font-size: 32px;
     line-height: 44px;
   }
@@ -598,7 +596,7 @@ textarea::placeholder {
   }
 
   .works h2 {
-    color: #091E42;
+    color: #091e42;
     display: flex;
     float: left;
     margin-bottom: 40px;
@@ -606,7 +604,7 @@ textarea::placeholder {
   }
 
   .works hr {
-    margin-top: 163px; 
+    margin-top: 163px;
     width: 70%;
     float: right;
     height: 3px;
@@ -623,7 +621,7 @@ textarea::placeholder {
   .desktop-works {
     display: grid;
     width: 100%;
-    grid-template: 100% / 50% 50%; 
+    grid-template: 100% / 50% 50%;
     height: auto;
     box-sizing: border-box;
     margin-bottom: 20px;
@@ -633,7 +631,7 @@ textarea::placeholder {
     grid-column: 2;
     grid-row: 1;
     width: 83%;
-    color: #091E42;
+    color: #091e42;
     position: relative;
     top: 50px;
     height: auto;
@@ -641,7 +639,7 @@ textarea::placeholder {
 
   .desktop-projects p {
     margin-top: 20px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -661,10 +659,10 @@ textarea::placeholder {
     width: 35%;
     justify-content: center;
     float: left;
-    background: #F55800;
+    background: #f55800;
   }
 
-  .work-grids { 
+  .work-grids {
     display: none;
   }
 
@@ -716,13 +714,13 @@ textarea::placeholder {
   .work-grid-1 button {
     width: 100%;
   }
-  
+
   .work-grid-2 {
     background-image: url(/assets/Img\ Placeholder.png);
   }
 
   .work-grid-3 {
-    background-image: url(/assets/Img\ Placeholder\ \(1\).png);
+    background-image: url(/assets/Img\ Placeholder5.png);
   }
 
   .work-grid-4 {
@@ -750,26 +748,26 @@ textarea::placeholder {
   }
 
   .about-me h2 {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
-    color: #F55800;
+    color: #f55800;
   }
 
   .about-me p {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    color: #F4F5F7;
+    color: #f4f5f7;
   }
 
   .about-me button {
     float: left;
     margin-top: 20px;
-    background-color: #F55800;
+    background-color: #f55800;
     margin-bottom: 139px;
   }
 
@@ -821,7 +819,6 @@ textarea::placeholder {
   }
 
   footer {
-    border-top: 1px solid #DFE1E6;
+    border-top: 1px solid #dfe1e6;
   }
-
 }
