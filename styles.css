@@ -486,20 +486,16 @@ textarea::placeholder {
   color: #5b5957;
 }
 
-.fw-400{
-  animation: 5s 3 alternate goToCenter;
+.logo-text {
+  animation: 1s 1 alternate rotation;
 }
 
-@keyframes goToCenter {
+@keyframes rotation {
   from {
-    margin-left: 400px;
-  }
-
-  50% {
-    font-size: 70PX;
+    transform: rotate(0deg); 
   }
 
   to {
-    margin-left: 0;
+    transform: rotate(360deg);
   }
 }
