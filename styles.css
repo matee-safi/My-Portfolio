@@ -485,3 +485,141 @@ textarea::placeholder {
   background: #f4f1f0;
   color: #5b5957;
 }
+
+.desktop {
+  display: none;
+}
+
+.social-media-desktop-visible {
+  display: none;
+}
+
+/* Desktop version */
+
+@media only screen and (min-width: 768px) {
+
+  nav {
+    display: none;
+  }
+
+  .desktop {
+    display: inline-block;
+  }
+
+  .desktop h6 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 40%;
+
+  }
+
+  .desktop ul {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    line-height: 20px;
+    flex-grow: 0;
+  }
+
+  .desktop li {
+    justify-content: right;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .desktop a {
+    text-decoration: none;
+    color: fff;
+  }
+
+  .mail {
+    padding-right: 10%;
+  }
+
+  .main-line {
+    color: #F55800;
+    font-size: 52px;
+    line-height: 82px;
+    font-weight: 300;
+  }
+
+  .second-line {
+    font-family: 'Inter', sans-serif;
+    font-weight: 100; 
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .third-line {
+    width: 566px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .headline {
+    padding-left: 10%;
+    background-image: url(/assets/Illustration-header.png);
+    background-position: right;
+    background-size: 80vh auto;
+  }
+
+  .social-media-desktop {
+    display: none;
+  }
+
+  .social-media-desktop-visible {
+    display: flex;
+    height: 90vh;
+    width: 15%;
+    position: absolute;
+    top: 49px;
+    left: -60px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .recent-works {
+    width: 80%;
+  }
+
+  .works h2 {
+    color: #091E42;
+    display: flex;
+    float: left;
+    margin-bottom: 40px;
+    width: 30%;
+  }
+
+  .works hr {
+    margin-top: 163px; 
+    width: 70%;
+    float: right;
+    height: 3px;
+    background-color: #9b9b9b;
+  }
+
+  .works img {
+    margin-top: 55px;
+    min-width: 50%;
+  }
+
+  .recent-works h3 {
+    display: inline;
+    width: 50%;
+    font-size: 40px;
+    line-height: 52px;
+    margin-top: -100px;
+  }
+
+}
