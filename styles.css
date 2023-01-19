@@ -485,3 +485,21 @@ textarea::placeholder {
   background: #f4f1f0;
   color: #5b5957;
 }
+
+.fw-400{
+  animation: 5s 3 alternate goToCenter;
+}
+
+@keyframes goToCenter {
+  from {
+    margin-left: 400px;
+  }
+
+  50% {
+    font-size: 70PX;
+  }
+
+  to {
+    margin-left: 0;
+  }
+}
