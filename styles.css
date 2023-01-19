@@ -500,7 +500,7 @@ textarea::placeholder {
 
 /* Desktop version */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1080px) {
 
   nav {
     display: none;
@@ -672,23 +672,156 @@ textarea::placeholder {
     display: grid;
     grid-template: auto auto / auto auto auto;
     gap: 1.5em;
+    margin-bottom: 130px;
   }
 
   .work-grid-desktop {
-    display: flex;
     height: 30vw;
     width: 24vw;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 14px;
+  }
+
+  .work-grid-desktop h6 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0;
+  }
+
+  .work-grid-desktop p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .work-grid-desktop ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
   }
 
   .work-grid-1 {
+    padding: 0;
     background-image: url(assets/Img\ Placeholder3.svg);
-    align-items: flex-end;
+  }
+
+  .work-grid-1 button {
+    width: 100%;
   }
   
   .work-grid-2 {
-    height: 30vw;
-    width: 24vw;
+    background-image: url(/assets/Img\ Placeholder.png);
+  }
+
+  .work-grid-3 {
+    background-image: url(/assets/Img\ Placeholder\ \(1\).png);
+  }
+
+  .work-grid-4 {
+    background-image: url(/assets/Img\ Placeholder4.png);
+  }
+
+  .about-me {
+    padding: 0 10%;
+    background: #262626;
+    background-image: url(/assets/illustration-about\ me.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 10vh;
+    padding-bottom: 1px;
+  }
+
+  .about-me-headline {
+    width: 50%;
+    float: left;
+  }
+
+  .about-me hr {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-me h2 {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    color: #F55800;
+  }
+
+  .about-me p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #F4F5F7;
+  }
+
+  .about-me button {
+    float: left;
+    margin-top: 20px;
+    background-color: #F55800;
+    margin-bottom: 139px;
+  }
+
+  .about-me ul {
+    width: auto;
+    margin: 0;
+  }
+
+  .about-me ul h4 {
+    margin: 0 auto 30px auto;
+  }
+
+  .lfs {
+    width: 80%;
     display: flex;
+    justify-content: space-between;
+    margin: 145px auto;
+  }
+
+  .contact {
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact button {
+    float: left;
+    position: relative;
+    left: 40px;
+  }
+
+  .email {
+    padding-top: 10%;
+    width: 60%;
+  }
+
+  .email-header {
+    width: 39%;
+    position: relative;
+    bottom: 80px;
+  }
+
+  #contact-text {
+    font-size: 40px;
+    color: #262626;
+    line-height: 52px;
+    width: 100%;
+    text-align: left;
+  }
+
+  footer {
+    border-top: 1px solid #DFE1E6;
   }
 
 }
