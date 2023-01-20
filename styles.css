@@ -474,6 +474,7 @@ textarea::placeholder {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
+  cursor: pointer;
 }
 
 .button:active {
@@ -660,9 +661,6 @@ textarea::placeholder {
   }
 
   .orange-btn {
-    /* display: flex; */
-
-    /* width: 35%; */
     justify-content: center;
     float: left;
     background: #f55800;
@@ -713,13 +711,47 @@ textarea::placeholder {
     flex-direction: row;
   }
 
-  .work-grid-desktop:hover {
-    background-image: url(assets/Img\ Placeholder3.svg);
-    color: rgba(255, 255, 255, 0);
+  .work-grid-4 {
+    display: none;
   }
 
-  .work-grid-1 button {
+  .work-grid-4 button {
     width: 100%;
+    display: block;
+  }
+
+  .project-links {
+    margin: 0;
+    padding: 0;
+  }
+
+  .seeProject-btn {
+    display: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    width: 100%;
+    height: 48px;
+    background: #ff6b00;
+    text-align: center;
+  }
+
+  .work-grid-desktop:hover {
+    background-image: url(assets/Img\ Placeholder3.svg);
+    padding: 0;
+    cursor: pointer;
+    outline: 2px solid #172b4d;
+  }
+
+  .work-grid-desktop:hover * {
+    display: none;
+  }
+
+  .work-grid-desktop:hover .seeProject-btn {
+    display: block;
   }
 
   .work-grid-1 {
