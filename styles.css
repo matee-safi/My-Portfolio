@@ -621,45 +621,52 @@ textarea::placeholder {
   .desktop-works {
     display: grid;
     width: 100%;
-    grid-template: 100% / 50% 50%;
+    grid-template: 100% / 60% 40%;
     height: auto;
     box-sizing: border-box;
     margin-bottom: 20px;
   }
 
   .desktop-projects {
-    grid-column: 2;
-    grid-row: 1;
-    width: 83%;
+    display: flex;
+    flex-direction: column;
     color: #091e42;
-    position: relative;
-    top: 50px;
-    height: auto;
+    margin-top: 65px;
+    padding-left: 20px;
+  }
+
+  .desktop-projects h3 {
+    margin-left: 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 52px;
   }
 
   .desktop-projects p {
-    margin-top: 20px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     width: 100%;
-    box-sizing: border-box;
+    margin-bottom: 40px;
   }
 
   .projects {
-    float: left;
-    margin: 10px auto 20px auto;
     font-weight: 500;
+    color: #091e42;
+    margin-left: 0;
+    margin-bottom: 30px;
   }
 
   .orange-btn {
-    display: flex;
-    width: 35%;
+    /* display: flex; */
+
+    /* width: 35%; */
     justify-content: center;
     float: left;
     background: #f55800;
+    margin-left: 0;
   }
 
   .work-grids {
@@ -706,13 +713,17 @@ textarea::placeholder {
     flex-direction: row;
   }
 
-  .work-grid-1 {
-    padding: 0;
+  .work-grid-desktop:hover {
     background-image: url(assets/Img\ Placeholder3.svg);
+    color: rgba(255, 255, 255, 0);
   }
 
   .work-grid-1 button {
     width: 100%;
+  }
+
+  .work-grid-1 {
+    background-image: url(/assets/Img\ Placeholder4.png);
   }
 
   .work-grid-2 {
@@ -721,10 +732,6 @@ textarea::placeholder {
 
   .work-grid-3 {
     background-image: url(/assets/Img\ Placeholder5.png);
-  }
-
-  .work-grid-4 {
-    background-image: url(/assets/Img\ Placeholder4.png);
   }
 
   .about-me {
@@ -796,7 +803,7 @@ textarea::placeholder {
   .contact button {
     float: left;
     position: relative;
-    left: 40px;
+    left: 30px;
   }
 
   .email {
