@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matee Safi - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crete+Round:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crete+Round:wght@100;200;300;400;500;600;700&family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,19 +20,26 @@
                 <img id="hamburger" src="./assets/hamburger-icon.svg" alt="hamburger menu">
             </div>
         </nav>
+        <div class="menuOn">	
+            <div class="crossIcon"><img src="./assets/Enabled.png" alt="crossIcon"></div>	
+            <ul id="menu-link">	
+                <li><a href="#portfolio">&nbsp;&nbsp;Portfolio</a></li>
+                <li><a href="#about">&nbsp;&nbsp;About</a></li>
+                <li><a href="#contact">&nbsp;&nbsp;Contact</a></li>
+            </ul>	
+        </div>
+        <nav class="desktop color-primary">
+            <ul>
+                <h6>Matee Safi</h6>
+                <li><a class="color-primary" href="#portfolio">Portfolio</a></li>
+                <li><a class="color-primary"  href="#about">About</a></li>
+                <li><a class="color-primary"  href="#contact">Contact</a></li>
+                <li class="mail"><a href="#"><img src="/assets/mail-icon.png" alt="email"></a></li>
+            </ul>
+        </nav>
       </header>
     <section class="headline color-primary">
-        <div class="main-line color-secondary">
-            <h1 class="fw-400">Hey There.<br>I'm Matee</h1>
-        </div>
-        <div class="second-line">
-            <h4>I am a Software Developer</h4>
-        </div>
-        <div class="third-line">
-            <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                don’t hestiate to contact me.</p>
-        </div>
-        <ul class="social-media">
+        <ul class="social-media-desktop-visible social-media">
             <li>
                 <a href="https://github.com/matee-safi">
                     <img class="icon" src="./assets/github-icon.png" alt="github">
@@ -58,92 +65,62 @@
                     <img class="medium" src="./assets/medium-icon.png" alt="medium">
                 </a>
             </li>
-        </ul>       
-    </section>
-    <section class="works">
-        <div class="recent-works">
-            <h2>My Recent Works</h2>
-            <hr class="border">
-            <img src="assets/Img Placeholder.svg" alt="yoga stretch">
-            <h3>Multi-Post Stories</h3>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-            <ul class="projects">
-                <li class="links">css</li>
-                <li class="links">html</li>
-                <li class="links">bootstrap</li>
-                <li class="links">Ruby</li>
-            </ul>
-            <button class="orange-btn color-primary button">See Project</button>
+        </ul>
+        <div class="main-line color-secondary">
+            <h1 class="fw-400">Hey There.<br>I'm Matee</h1>
         </div>
+        <div class="second-line">
+            <h4>I am a Software Developer</h4>
+        </div>
+        <div class="third-line">
+            <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                don’t hestiate to contact me.</p>
+        </div>
+        <ul class="social-media social-media-desktop">
+            <li>
+                <a href="https://github.com/matee-safi">
+                    <img class="icon" src="./assets/github-icon.png" alt="github">
+                </a>
+            </li>
+            <li>
+                <a href="https://linkedin.com/in/matee-safi-755421243)">
+                    <img class="icon" src="./assets/linkedin-icon.png" alt="linkedin">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img class="icon" src="./assets/angelist-icon.png" alt="angelist">
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/matee_safi">
+                    <img class="icon" src="./assets/twitter-icon.png" alt="twitter">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img class="medium" src="./assets/medium-icon.png" alt="medium">
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="works" id="portfolio">
         <div class="work-grids">
-        <div class="project-data color-primary">
-            <h2>Professional Art<br>Printing Data</h2>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="project-links">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
-            </ul>
-            <button class="seeProject-btn color-primary button">See Project</button>
+
         </div>
-        <div class="project-data color-primary">
-            <h2>Professional Art<br>Printing Data</h2>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="project-links">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
-            </ul>
-            <button class="seeProject-btn color-primary button">See Project</button>
+        <div class="work-grids-desktop color-primary">
+
         </div>
-        <div class="project-data color-primary">
-            <h2>Professional Art<br>Printing Data</h2>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="project-links">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
-            </ul>
-            <button class="seeProject-btn color-primary button">See Project</button>
-        </div>
-        <div class="project-data color-primary">
-            <h2>Professional Art<br>Printing Data</h2>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="project-links">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
-            </ul>
-            <button class="seeProject-btn color-primary button">See Project</button>
-        </div>
-        <div class="project-data color-primary">
-            <h2>Professional Art<br>Printing Data</h2>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="project-links">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
-            </ul>
-            <button class="seeProject-btn color-primary button">See Project</button>
-        </div>
-        <div class="project-data color-primary">
-            <h2>Professional Art<br>Printing Data</h2>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-            <ul class="project-links">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
-            </ul>
-            <button class="seeProject-btn color-primary button">See Project</button>
-        </div>
-    </div>
     </section>
-    <section class="about-me">
-        <div>
-            <h2 class="color-secondary">About me</h2>
-            <p>Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-            <button class="get-resume-btn color-primary button">Get My Resume</button>
+    
+    <section class="about-me" id="about">
+            <div class="about-me-headline">
+                <h2 class="color-secondary">About me</h2>
+                <p>Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                <button class="get-resume-btn color-primary button">Get My Resume</button>
+            </div>
         <hr>
+        <div class="lfs">
         <ul class="languages"><h4>Language</h4>
             <li>Javascript</li>
             <li>Ruby</li>
@@ -166,26 +143,34 @@
         </ul>
     </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
+        <div class="email-header">
+            <h4 id="contact-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
+        </div>
         <div class="email">
-            <h4 id="contact-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in</h4>
             <form action="https://formspree.io/f/xpzewrow" method="post">
-                <input class="color-primary" type="text" placeholder="Full name" required maxlength="30">
-                <input class="color-primary" type="email" placeholder="Email address" required>
-                <textarea name="comment" cols="30" rows="10" placeholder="Enter text here" required maxlength="500"></textarea>
+                <label for="form-name"></label>
+                <input class="color-primary" id="form-name" type="text" placeholder="Full name" required maxlength="30">
+
+                <label for="form-email"></label>
+                <input name="form-email" class="color-primary" id="form-email" type="email" placeholder="Email address" required>
+
+                <label for="form-textarea"></label>
+                <textarea name="comment" id="form-textarea" cols="30" rows="10" placeholder="Enter text here" required maxlength="500"></textarea>
                 <button type="submit" class="get-intouch-btn color-primary button">Get in touch</button>
             </form>
         </div>
         <hr class="end-border">
-        <footer>
-            <ul class="social-media">
-            <li><a href="github.com"><img src="/assets/github.svg" alt="github"></a></li>
-            <li><a href="linkedin.com"><img src="/assets/linkedin.png" alt="linkedin"></a></li>
-            <li><a href="angelinst.com"><img src="/assets/angelist.png" alt="angelist"></a></li>
-            <li><a href="twitter.com"><img src="/assets/twitter.png" alt="twitter"></a></li>
-            <li><a href="medium.com"><img src="/assets/medium.png" alt="medium"></a></li>
-        </ul>
-        </footer>
     </section>
+    <footer>
+        <ul class="social-media">
+        <li><a href="github.com"><img src="/assets/github.svg" alt="github"></a></li>
+        <li><a href="linkedin.com"><img src="/assets/linkedin.png" alt="linkedin"></a></li>
+        <li><a href="angelinst.com"><img src="/assets/angelist.png" alt="angelist"></a></li>
+        <li><a href="twitter.com"><img src="/assets/twitter.png" alt="twitter"></a></li>
+        <li><a href="medium.com"><img src="/assets/medium.png" alt="medium"></a></li>
+    </ul>
+    </footer>
+	<script src="script.js"></script>
 </body>
 </html>
