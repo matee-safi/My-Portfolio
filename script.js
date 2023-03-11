@@ -36,8 +36,9 @@ const projectData = [{
   title: 'Professional Art<br>Printing Data',
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
   technologies: ['html', 'Bootstrap', 'Ruby'],
-  liveUrl: '#',
-  sourceUrl: '#',
+  liveUrl: 'https://matee-safi.github.io/Todo-list/',
+  sourceUrl: 'https://github.com/matee-safi/Todo-list',
+  image: '/assets/todoScreenshot.png',
 },
 {
   id: 1,
@@ -46,6 +47,7 @@ const projectData = [{
   technologies: ['html', 'Bootstrap', 'Ruby'],
   liveUrl: '#',
   sourceUrl: '#',
+  image: '/assets/todoScreenshot.png',
 },
 {
   id: 2,
@@ -54,6 +56,7 @@ const projectData = [{
   technologies: ['html', 'Bootstrap', 'Ruby'],
   liveUrl: '#',
   sourceUrl: '#',
+  image: '/assets/todoScreenshot.png',
 },
 {
   id: 3,
@@ -62,6 +65,7 @@ const projectData = [{
   technologies: ['html', 'Bootstrap', 'Ruby'],
   liveUrl: '#',
   sourceUrl: '#',
+  image: '/assets/todoScreenshot.png',
 },
 {
   id: 4,
@@ -70,6 +74,7 @@ const projectData = [{
   technologies: ['html', 'Bootstrap', 'Ruby'],
   liveUrl: '#',
   sourceUrl: '#',
+  image: '/assets/todoScreenshot.png',
 },
 {
   id: 5,
@@ -78,16 +83,18 @@ const projectData = [{
   technologies: ['html', 'Bootstrap', 'Ruby'],
   liveUrl: '#',
   sourceUrl: '#',
+  image: '/assets/todoScreenshot.png',
 }];
 
 const projectDataDesktop = [
   {
     id: 0,
-    title: 'Professional Art<br>Printing Data More',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    technologies: ['html', 'Bootstrap', 'Ruby'],
-    liveUrl: '#',
-    sourceUrl: '#',
+    title: 'Todo List<br>Application',
+    description: "A simple webpage for todo list that you can add and remove your tasks in and check or uncheck them when ever completed, and you can also remove all completed tasks at once.",
+    technologies: ['html', 'css', 'JavaScript'],
+    liveUrl: 'https://matee-safi.github.io/Todo-list/',
+    sourceUrl: 'https://github.com/matee-safi/Todo-list',
+    image: '/assets/todoScreenshot.png',
   },
   {
     id: 1,
@@ -96,6 +103,7 @@ const projectDataDesktop = [
     technologies: ['html', 'Bootstrap', 'Ruby'],
     liveUrl: '#',
     sourceUrl: '#',
+    image: '/assets/todoScreenshot.png',
   },
   {
     id: 2,
@@ -104,6 +112,7 @@ const projectDataDesktop = [
     technologies: ['html', 'Bootstrap', 'Ruby'],
     liveUrl: '#',
     sourceUrl: '#',
+    image: '/assets/todoScreenshot.png',
   },
   {
     id: 3,
@@ -112,6 +121,7 @@ const projectDataDesktop = [
     technologies: ['html', 'Bootstrap', 'Ruby'],
     liveUrl: '#',
     sourceUrl: '#',
+    image: '/assets/todoScreenshot.png',
   },
   {
     id: 4,
@@ -120,6 +130,7 @@ const projectDataDesktop = [
     technologies: ['html', 'Bootstrap', 'Ruby'],
     liveUrl: '#',
     sourceUrl: '#',
+    image: '/assets/todoScreenshot.png',
   },
   {
     id: 5,
@@ -128,6 +139,7 @@ const projectDataDesktop = [
     technologies: ['html', 'Bootstrap', 'Ruby'],
     liveUrl: '#',
     sourceUrl: '#',
+    image: '/assets/todoScreenshot.png',
   },
 ];
 
@@ -284,13 +296,13 @@ function popupFuntion(cardId) {
       </ul>
       <div class="popDiskDiv">
         <div>
-          <img id="snapshootDesktop" src="./assets/Snapshoot desktop.png" alt="IOT 10 image">
+          <img id="snapshootDesktop" src="${projectDataDesktop[cardId].image}" alt="IOT 10 image">
         </div>
         <div>
           <p>${projectDataDesktop[cardId].description}</p>
           <div class="deskBtnDiv">
-            <button href="${projectDataDesktop[cardId].liveUrl}">See Live<img src="./assets/Icon - Export Desktop.png" alt="export"></button>
-            <button href="${projectDataDesktop[cardId].sourceUrl}">See Source<img src="./assets/Icon -GitHub-Desktop.png" alt="github"></button>
+            <a href="${projectDataDesktop[cardId].liveUrl}"><button href="${projectDataDesktop[cardId].liveUrl}">See Live<img src="./assets/Icon - Export Desktop.png" alt="export"></button></a>
+            <a href="${projectDataDesktop[cardId].sourceUrl}"><button href="${projectDataDesktop[cardId].sourceUrl}">See Source<img src="./assets/Icon -GitHub-Desktop.png" alt="github"></button></a>
           </div>
         </div>
       </div>

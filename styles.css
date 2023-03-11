@@ -49,6 +49,14 @@ nav {
   padding: 10px 24px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
 .menuOn ul li a {
   text-decoration: none;
   color: #fff;
@@ -1054,7 +1062,11 @@ textarea::placeholder {
   }
 
   .work-grid-0 {
-    background-image: url(/assets/Img\ Placeholder4.png);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(211, 211, 211, 0.7)), url('/assets/todoScreenshot.png');
+  }
+
+  .work-grid-0:hover {
+    background-image: url('/assets/todoScreenshot.png');
   }
 
   .work-grid-1 {
