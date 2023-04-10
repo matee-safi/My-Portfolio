@@ -1150,6 +1150,7 @@ textarea::placeholder {
   }
 
   .contact {
+    height: 90vh;
     padding: 0 10%;
     display: flex;
     align-items: center;
@@ -1180,6 +1181,7 @@ textarea::placeholder {
 
   footer {
     border-top: 1px solid #dfe1e6;
+    height: 10vh;
   }
 
   .menu {

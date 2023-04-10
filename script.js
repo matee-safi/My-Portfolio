@@ -33,9 +33,9 @@ const recentWork = {
 
 const projectData = [{
   id: 0,
-  title: 'Professional Art<br>Printing Data',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  technologies: ['html', 'Bootstrap', 'Ruby'],
+  title: 'Todo List<br>Application',
+  description: "A simple webpage for todo list that you can add and remove your tasks in and check or uncheck them when ever completed, and you can also remove all completed tasks at once.",
+  technologies: ['html', 'css', 'JavaScript'],
   liveUrl: 'https://matee-safi.github.io/Todo-list/',
   sourceUrl: 'https://github.com/matee-safi/Todo-list',
   image: '/assets/todoScreenshot.png',
