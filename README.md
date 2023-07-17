@@ -100,14 +100,9 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+## Setup
 
-## 🔭 Future Features <a name="future-features"></a>
-
-
-- [ ] **[Soon i'll make a desktop version as well.]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+to set up the project for use run <code>npm install</code>.
 
 <!-- CONTRIBUTING -->
 
