@@ -264,7 +264,7 @@ a {
   display: grid;
   height: 386px;
   width: 327px;
-  background: url(assets/Img\ Placeholder2.svg);
+  background: url(./assets/Img\ Placeholder2.svg);
 }
 
 .project-data h2 {
@@ -339,7 +339,7 @@ a {
 .about-me {
   background-color: #1c1a19;
   color: #f4f5f7;
-  background-image: url(/assets/illustration-about-me-mobile.svg);
+  background-image: url(./assets/illustration-about-me-mobile.svg);
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: 68vh;
@@ -423,7 +423,7 @@ a {
 
 .languages h4 {
   display: list-item;
-  list-style-image: url(/assets/Rectangle\ 55.png);
+  list-style-image: url(./assets/Rectangle\ 55.png);
   list-style-position: inside;
   margin-top: 136px;
   margin-bottom: 38px;
@@ -431,14 +431,14 @@ a {
 
 .frameworks h4 {
   display: list-item;
-  list-style-image: url(/assets/Rectangle\ 56.png);
+  list-style-image: url(./assets/Rectangle\ 56.png);
   list-style-position: inside;
   margin-bottom: 38px;
 }
 
 .skills h4 {
   display: list-item;
-  list-style-image: url(/assets/Rectangle\ 57.png);
+  list-style-image: url(./assets/Rectangle\ 57.png);
   list-style-position: inside;
   margin-bottom: 38px;
 }
@@ -854,7 +854,7 @@ textarea::placeholder {
 
   .headline {
     padding-left: 10%;
-    background-image: url(/assets/Illustration-header.png);
+    background-image: url(./assets/Illustration-header.png);
     background-position: right;
     background-size: 80vh auto;
   }
@@ -1047,7 +1047,7 @@ textarea::placeholder {
   }
 
   .work-grid-desktop:hover {
-    background-image: url(assets/Img\ Placeholder3.svg);
+    background-image: url(./assets/Img\ Placeholder3.svg);
     padding: 0;
     cursor: pointer;
     outline: 2px solid #172b4d;
@@ -1062,37 +1062,37 @@ textarea::placeholder {
   }
 
   .work-grid-0 {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(211, 211, 211, 0.7)), url('/assets/todoScreenshot.png');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(211, 211, 211, 0.7)), url('./assets/todoScreenshot.png');
   }
 
   .work-grid-0:hover {
-    background-image: url('/assets/todoScreenshot.png');
+    background-image: url('./assets/todoScreenshot.png');
   }
 
   .work-grid-1 {
-    background-image: url(/assets/Img\ Placeholder.png);
+    background-image: url(./assets/Img\ Placeholder.png);
   }
 
   .work-grid-2 {
-    background-image: url(/assets/Img\ Placeholder5.png);
+    background-image: url(./assets/Img\ Placeholder5.png);
   }
 
   .work-grid-3 {
-    background-image: url(/assets/Img\ Placeholder4.png);
+    background-image: url(./assets/Img\ Placeholder4.png);
   }
 
   .work-grid-4 {
-    background-image: url(/assets/Img\ Placeholder.png);
+    background-image: url(./assets/Img\ Placeholder.png);
   }
 
   .work-grid-5 {
-    background-image: url(/assets/Img\ Placeholder5.png);
+    background-image: url(./assets/Img\ Placeholder5.png);
   }
 
   .about-me {
     padding: 0 10%;
     background: #262626;
-    background-image: url(/assets/illustration-about\ me.svg);
+    background-image: url(./assets/illustration-about\ me.svg);
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: 10vh;
